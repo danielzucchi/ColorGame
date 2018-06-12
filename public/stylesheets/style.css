@@ -1,0 +1,89 @@
+body {
+    background: #232323;
+    color: white;
+    margin: 0;
+    font-family: "Avenir", "Montserrat", sans-serif;
+}
+
+h1 {
+    background: steelblue;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.square {
+    background: white;
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    padding-bottom: 30%;
+}
+
+#container {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+#colorDisplay {
+    font-size: 170%;
+}
+
+#menu {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.mode, #reset {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    transition: all 0.4s;
+    outline: none;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+.selected {
+    background: steelblue;
+    color: white;
+}
+
+button.mode:hover {
+    background: steelblue;
+    color: white;
+}
+
+#reset:hover {
+    background: steelblue;
+    color: white;
+}
+
+#quit {
+    margin: 10px auto;
+    display: block;
+}
+
+
